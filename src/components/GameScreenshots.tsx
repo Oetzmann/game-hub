@@ -1,7 +1,5 @@
-import useGameTrailers from "../hooks/useGameTrailers";
-import { Game } from "../entities/Game";
+import { Image, SimpleGrid } from "@chakra-ui/react";
 import useScreenshots from "../hooks/useScreenshots";
-import { GridItem, Image, SimpleGrid } from "@chakra-ui/react";
 
 interface Props {
   gameId: number;
